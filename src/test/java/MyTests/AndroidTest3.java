@@ -12,7 +12,7 @@ public class AndroidTest3 {
 		System.out.println("Step 1: Executing Android test -step1");
 		System.out.println("Step2 : executing step 2 ");
 		System.out.println("hi modified");
-		
+		System.out.println("added new line test from github");
 		System.out.println("******************************************");
 	}
 
