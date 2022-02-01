@@ -4,6 +4,11 @@
   <artifactId>MavenBasicProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+
+<properties>
+  <maven.compiler.source>1.6</maven.compiler.source>
+  <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
   
   <dependencies>
 		  
@@ -35,8 +40,11 @@
         
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-            <suiteXmlFile>testng2.xml</suiteXmlFile>
+               <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>          
+            <!--
+             <suiteXmlFile>testng.xml</suiteXmlFile>
+             <suiteXmlFile>testng2.xml</suiteXmlFile>
+            -->            
             
           </suiteXmlFiles>
         </configuration>
